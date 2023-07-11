@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Futura STD", "Arial", sans-serif;
+}
+
+.mobile-navbar-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#navbar-mobile .mobile-navbar-sublist {
+    margin-left: 1.25rem;
+}
+
+#navbar-mobile li {
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+
+#hero-slideshow {
+    height: 837px;
+}
